@@ -1,0 +1,55 @@
+{
+    "users": [
+        {
+            "email": "pedro.barros@gmail.com",
+            "password": "pedro123", 
+            "username": "Pedro Barros"
+        },
+        {
+            "email": "guilherme.espim@gmail.com",
+            "password": "guilherme123", 
+            "username": "Guilherme Espim"
+        },
+        {
+            "email": "professor@gmail.com",
+            "password": "prof123", 
+            "username": "Professor"
+        }
+    ],
+    "text-cards": [
+        {
+            "title": "O que é a NotreCare?",
+            "text": "A NotreCare é uma solução baseada em inteligência artificial e wearables, voltada para o ramo da saúde. Sua missão é proporcionar à população uma união entre uma vida mais saudável e a praticidade do cuidado próprio."
+        },
+        {
+            "title": "Como funcionará?",
+            "text": "A NotreCare usa smartbands CareBand para monitorar sinais vitais, enviando dados à Ami, uma IA, para detecção de anomalias e acionamento de emergências. A Ami otimiza rotas de ambulâncias com base em leitos disponíveis, agilizando atendimentos críticos."
+        },
+        {
+            "title": "O que ela fará?",
+            "text": "A Ami, uma IA vinculada à smartband CareBand, detecta anomalias, sugere rotas para hospitais, gera um QR code para realidade aumentada e minimiza atrasos por falta de leitos. O sistema BedLink, onde profissionais cadastram leitos disponíveis, otimizando o tempo de transporte."
+        }
+    ],
+    "benefits": [
+        {
+            "title": "Monitoramento 24 horas",
+            "icon": "cardiology", 
+            "text": "A CareBand, sua aliada para bem-estar, monitora sinais vitais 24 horas e detecta emergências. Com a IA Ami, oferece diagnóstico prévio e aciona socorro instantâneo, garantindo assistência eficiente e tranquilidade constante."
+        },
+        {
+            "title": "Pré diagnóstico ágil",
+            "icon": "diagnosis", 
+            "text": "A inteligência artificial Ami realiza um pré-diagnóstico preciso com dados da CareBand, acionando socorros em emergências. Consulta automaticamente o hospital mais próximo, garantindo resposta ágil e eficaz."
+        },
+        {
+            "title": "Agilidade no transporte",
+            "icon": "ambulance",
+            "text": "Ami, nossa IA avançada, consulta o hospital próximo, confirma leitos disponíveis e traça a rota mais rápida para os socorros. Eficiência total, garantindo atendimento ágil e especializado."
+        },
+        {
+            "title": "Realidade aumentada",
+            "icon": "view_in_ar",
+            "text": "Ami gera um QR code na CareBand após o pré-diagnóstico. Socorristas escaneiam para acessar procedimentos de primeiros socorros em realidade aumentada, otimizando massagens e ações precisas."
+        }
+    ]
+}
