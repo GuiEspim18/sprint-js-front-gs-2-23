@@ -1,0 +1,10 @@
+@import "../../../styles/colors.scss";
+
+.success {
+    background-color: $success;
+
+    p {
+        color: $white;
+        font-size: 1.2rem;
+    }
+}

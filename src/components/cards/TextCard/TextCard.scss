@@ -1,0 +1,29 @@
+@import "../../../styles/colors.scss";
+
+.text-card {
+    background-color: $white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: $shadow;
+
+    .text-card-title, .text-card-p {
+        margin: 0;
+    }
+
+    .text-card-title {
+        color: $highPink;
+    }
+
+    .text-card-p {
+        color: $black;
+        font-weight: lighter;
+    }
+
+    .text-card-hr {
+        border: solid 0.5px $highPink;
+    }
+
+}

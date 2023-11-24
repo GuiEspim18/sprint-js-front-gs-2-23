@@ -1,0 +1,17 @@
+@import "../../styles/colors.scss";
+
+.benefits {
+    width: 100%;
+    margin: 10px;
+
+    h1 {
+        color: $highPink;
+        font-size: 2rem;
+    }
+
+    .cards-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}

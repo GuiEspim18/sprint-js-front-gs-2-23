@@ -1,0 +1,9 @@
+@import "../../../styles/colors.scss";
+
+.submit {
+    background-color: $highPink;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

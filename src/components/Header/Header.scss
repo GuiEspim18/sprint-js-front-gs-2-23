@@ -1,0 +1,34 @@
+@import "../../styles/colors.scss";
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: $lightBlue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+    p {
+        font-size: 1rem;
+        color: $highPink;
+        margin: 0;
+    }
+
+    .user-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        button {
+            width: 30%;
+        }
+    }
+
+    .user-name {
+        text-align: end;
+    }
+
+}
