@@ -1,0 +1,109 @@
+@import "./colors.scss";
+
+html,
+body {
+    background-color: $ultraLightBlue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.input {
+    height: 35px;
+    background-color: $white;
+    border: solid 1px $darkBlue;
+    outline: none;
+    font-size: 1rem;
+    color: $black;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    &::placeholder {
+        color: $grey;
+    }
+}
+
+.input-holder {
+    height: 35px;
+    background-color: $white;
+    border: solid 1px $darkBlue;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 10px;
+
+
+    input {
+        background-color: transparent;
+        height: 100%;
+        width: 90%;
+        border: none;
+        padding: 0px 10px;
+        box-sizing: border-box;
+        font-size: 1rem;
+        outline: none;
+
+        &::placeholder {
+            color: $grey;
+        }
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        span {
+            color: $grey;
+        }
+    }
+}
+
+.button {
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    width: auto;
+    padding: 0px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    position: relative;
+    width: 30%;
+    height: 45px;
+    top: 10px;
+    border-radius: 10px;
+    box-shadow: $shadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.row {
+    display: grid;
+}
