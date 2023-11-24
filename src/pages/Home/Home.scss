@@ -1,0 +1,49 @@
+@import "../../styles/colors.scss";
+
+.home-main {
+    width: 100%;
+    margin-top: 10px;
+
+    .row-1 {
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
+        
+        .column-1 {
+            .logo-row {
+                display: flex;
+                align-items: center;
+                height: 157px;
+                margin-bottom: 10px;
+                padding: 10px;
+                box-sizing: border-box;
+
+                .logo {
+                    width: 150px;
+                }
+
+                h1 {
+                    font-size: 4rem;
+                    font-weight: lighter;
+                    margin-left: 30px;
+
+                    .span1 {
+                        color: $black
+                    }
+                    .span2 {
+                        color: $highPink;
+                    }
+                }
+            }
+
+        }
+        .column-2 {
+            .text-card {
+                margin-bottom: 10px;
+                height: 170px !important;
+            }
+        }
+        @media screen and (max-width: 1120px) {
+            grid-template-columns: 100%;
+        }
+    }
+}

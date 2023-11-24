@@ -1,0 +1,38 @@
+@import "../../styles/colors.scss";
+
+.form-card-content {
+
+    form {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+
+        input {
+            width: 100%;
+        }
+    }
+
+    hr {
+        width: 90%;
+        border: solid 0.5px $highPink;
+        border-radius: 10px;
+    }
+
+    h3 {
+        color: $highPink;
+        font-size: 1.3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .submit-button-holder {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 40px;
+
+        button {
+            width: 50%;
+        }
+
+    }
+}
